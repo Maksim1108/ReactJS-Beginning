@@ -2,7 +2,7 @@ import search from '../../assets/search.svg';
 import phone from '../../assets/phone.svg';
 import cart from '../../assets/cart.svg';
 import user from '../../assets/user.svg';
-import './style.scss';
+import './styles.scss';
 
 const Header = () => {
   return (
@@ -11,7 +11,7 @@ const Header = () => {
         <div className='header__top'>
           <div>
             <img className="header__phone" src={phone} alt='phone' />
-            <img src={search} alt='search'/>
+            <img src={search} alt='search' />
           </div>
           <div className='header__logo'>
             <a href='' className='logo__link'>
